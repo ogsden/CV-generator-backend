@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cvs",
+  "info": {
+    "singularName": "cv",
+    "pluralName": "cvs",
+    "displayName": "CV",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "education": {
+      "type": "string"
+    },
+    "position": {
+      "type": "json"
+    },
+    "skills": {
+      "type": "json"
+    },
+    "languages": {
+      "type": "json"
+    },
+    "projects": {
+      "type": "json"
+    }
+  }
+}

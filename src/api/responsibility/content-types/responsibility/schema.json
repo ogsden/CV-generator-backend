@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "responsibilities",
+  "info": {
+    "singularName": "responsibility",
+    "pluralName": "responsibilities",
+    "displayName": "responsibility",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
